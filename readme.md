@@ -8,7 +8,7 @@ I will propose that we do offshore piles (normally tubular piles driven using hy
 Let's assume the geological condition is really simple, but typical in Hong Kong offshore, i.e., two layers comprising Marine Deposit Overlaying Alluvium
 
 |Soils| Unit Weight| $s_u$| $\phi$|
-|---------------------------------|
+|----- |-----------|--------------|
 |MD|16|$s_u=0.2\cdot \sigma_v'$|0|
 
 # Context
