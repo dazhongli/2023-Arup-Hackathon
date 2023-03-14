@@ -1,10 +1,30 @@
 # Arup 2023 Hackathon
+
 ## Context
-In Hong Kong, land piles are simple and do not offer much opportunity for innovation. Therefore, I propose that we focus on offshore piles, which are typically tubular piles driven using a hydraulic hammer. Calculating the pile capacity is generally straightforward, using an $\alpha$ and $\beta$ method.
+
+In Hong Kong, land piles are simple and do not offer much opportunity for innovation. Therefore, I propose that we focus on offshore piles, which are typically tubular piles driven using a hydraulic hammer. 
+
+![Load Transfer Mechanism for Tubular Piles](/image/Figure_1_Tubular_Pile_Design.png)
+
+Calculating the pile capacity is generally straightforward, using an $\alpha$ and $\beta$ method.
+
+Shaft friction at pile is calculated as 
+
+$$f_s = \begin{cases}
+    \alpha\cdot s_u & \text{clay}\\
+    \beta \cdot K_0 \cdot \sigma_v'  & \text{sand}
+    \end{cases} $$
+
+The ultimate axial capacity will need to differentiate the _unplugged case_ and the _plugged_ case, i.e., the Case (a) or Case (b) in the Figure above.
 For our purposes, let's assume that the geological conditions are typical for Hong Kong offshore sites, with two layers comprising Marine Deposit Overlaying Alluvium.
 | Soils | Unit Weight | $s_u$                    | $\phi$ |
 | ----- | ----------- | ------------------------ | ------ |
-| MD    | 16          | $s_u=0.2\cdot \sigma_v'$ | 0      |
+| MD    | 16          | $s_u=0.2\cdot \sigma_v'$ | NA     |
+| AL    | 18          | NA                       | $34^0$ |
+
+Assumed Loading: 
+
+Axial Force = **20MN**
 
 ## Aim
 
